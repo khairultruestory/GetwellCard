@@ -1,0 +1,68 @@
+body {
+    background: #f4e4bc;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.board {
+    background: #8b5a2b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+textarea, input[type="file"] {
+    padding: 10px;
+    border: 2px solid #d4a017;
+    border-radius: 5px;
+}
+
+button {
+    background: #d4a017;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #b58900;
+}
+
+.post {
+    background: #fff3cd;
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px dashed #d4a017;
+    border-radius: 5px;
+    position: relative;
+    transform: rotate(-2deg); /* Slight tilt for pinboard effect */
+}
+
+.post:nth-child(even) {
+    transform: rotate(2deg); /* Alternate tilt */
+}
+
+.post img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
